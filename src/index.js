@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
-import thunk from 'redux-thunk'
-import { BrowserRouter as Router } from 'react-router-dom'
+import thunk from 'redux-thunk';
+import { BrowserRouter as Router } from 'react-router-dom';
+import manageStore from './reducers/manageStore'
 
 const store = createStore(manageStore, compose(applyMiddleware(thunk), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()));
 
