@@ -1,13 +1,23 @@
 import React from 'react';
+import Contact from './components/Contact/contact';
+import Intro from './components/intro/intro';
+import Portfolio from './components/portfolio/portfolio';
+import Testimonials from './components/testimonials/testimonials';
 import Topbar from './components/topbar/topbar';
+import Works from './components/works/works';
 
 
 function App() {
   return (
     <div className="App">
-      hello
-      top
-      mid sec -intro, -portfolio, -work etc...
+      <Topbar />
+      <div className="sections">
+        <Intro />
+        <Portfolio />
+        <Works />
+        <Testimonials />
+        <Contact />
+      </div>
     </div>
   );
 }

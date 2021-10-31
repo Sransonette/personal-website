@@ -4,7 +4,7 @@ import "./works.scss"
 const Works = () => {
     return (
         <div className="works">
-
+            Test
         </div>
     );
 }
