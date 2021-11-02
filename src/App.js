@@ -5,6 +5,7 @@ import Portfolio from './components/portfolio/portfolio';
 import Testimonials from './components/testimonials/testimonials';
 import Topbar from './components/topbar/topbar';
 import Works from './components/works/works';
+import "./App.scss"
 
 
 function App() {
