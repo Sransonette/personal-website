@@ -6,7 +6,7 @@ const Topbar = () => {
         <div className="topbar">
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro"></a>
+                    <a href="#intro">Intro</a>
                 </div>
 
                 <div className="right"></div>
