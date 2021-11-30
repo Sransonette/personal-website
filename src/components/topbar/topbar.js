@@ -7,10 +7,13 @@ const Topbar = () => {
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className="logo">Sean.</a>
+                    <div className="itemContainer">
+
+                    </div>
                 </div>
                 <div className="right"></div>
             </div>
-        </div>
+        </div >
     );
 }
 
