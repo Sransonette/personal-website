@@ -11,6 +11,8 @@ const Topbar = () => {
                     <div className="itemContainer">
                         <Mail className="icon" />
                         <span>Sransonette@gmail.com</span>
+                        <Person className="icon" />
+                        <span>https://www.linkedin.com/in/sean-ransonette-0abb284a/</span>
                     </div>
                 </div>
                 <div className="right"></div>
