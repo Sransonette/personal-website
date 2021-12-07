@@ -64,4 +64,23 @@
 
         }
     }
+    &.active{
+        background-color: $mainColor;
+        color: white;
+
+        .hamburger{
+            span{
+                &:first-child{
+                    background-color: white;
+                    
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                }
+                &:last-child{
+                    background-color: white;
+                }
+            }
+        }
+    }
 }
